@@ -1,0 +1,24 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Inter:wght@100..900&display=swap');
+/* Apply the font to specific elements */
+.moomin-heading {
+  font-family: 'Carter One', sans-serif;
+  text-shadow:  4px 4px 4px #f8f8f8, 4px 4px 4px #f3f5f4;
+  color: #222;
+  text-align: center;
+  /* mix-blend-mode: difference */
+}
+.sub-heading{
+  font-family:'Inter', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow:  2px 2px 2px #f8f8f8, 2px 2px 2px #f3f5f4;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: Bold;
+  font-variation-settings:
+    "slnt" 0;
+  color: #222;
+  text-align: center;
+  /* mix-blend-mode: difference */
+}
