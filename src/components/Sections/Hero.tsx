@@ -31,7 +31,7 @@ const Hero: FC = memo(() => {
             <div className=''> 
               <a className=' text-xl text-center font-bold text-[#fff] bg-[#c72727] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
                 href='https://app.uniswap.org/swap'>
-                <i className='fa fa-download'></i> BUY NOW
+                BUY NOW
               </a>
               <LandingCoins/>
             </div>
