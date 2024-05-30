@@ -57,7 +57,7 @@ export const SectionId = {
   About: 'about',
   Testimonials: 'family',
   Portfolio: 'contact',
-  Resume: 'roadmap',
+  Resume: 'Tokenomics',
   Skills: 'skills',
   Stats: 'stats',
   Contact: 'stats',

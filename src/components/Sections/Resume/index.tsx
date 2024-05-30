@@ -1,29 +1,33 @@
+import classNames from 'classnames';
+import Image from 'next/image';
 import {FC, memo} from 'react';
 
-import {roadmap, SectionId} from '../../../data/data';
+import {SectionId} from '../../../data/data';
+import profileImageSrc from '../../../images/tokenomics.png'
 import Section from '../../Layout/Section';
-import ResumeSection from './ResumeSection';
-// import {SkillGroup} from './Skills';
-import TimelineItem from './TimelineItem';
 
 const Resume: FC = memo(() => {
+  const description1 = `87% of the tokens were sent to the liquidity pool, LP tokens were burnt, and contract is renounced. The remaining 13% of the supply is being used for shareholders, market and  safe of reflection mechanism.`;
+  const description2 = `7.77% of the fee is distributed to holders in ETH.`;
+
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
-      <div className="flex flex-col divide-y-2 divide-neutral-300">
-        <ResumeSection title="RoadMap">
-          {roadmap.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </ResumeSection>
+      <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-5': !!profileImageSrc})}>
         
-        {/* <ResumeSection title="Skills">
-          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
-            {skills.map((skillgroup, index) => (
-              <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
-            ))}
+        <div className={classNames('col-span-1 flex flex-col justify-center gap-y-6', {'md:col-span-2': !!profileImageSrc})}>
+          <div className="flex flex-col  gap-y-5 md:ml-10">
+            <h2 className="text-3xl font-bold text-gray">Tokenomics</h2>
+            <p className="prose prose-sm text-gray-900 sm:prose-base md:text-xl">{description1}</p>
+            <p className="prose prose-sm text-gray-900 sm:prose-base md:text-xl">{description2}</p>
           </div>
-        </ResumeSection> */}
+          
+        </div>
+
+        {!!profileImageSrc && (
+          <div className="col-span-3 justify-center">
+              <Image alt="about-me-image" className="md:h-[100%] md:w-[100%] h-[100%] w-[100%] " src={profileImageSrc} />
+          </div>
+        )}
       </div>
     </Section>
   );

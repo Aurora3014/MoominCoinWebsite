@@ -30,8 +30,8 @@ const Hero: FC = memo(() => {
             <p  className='sub-heading md:text-2xl  text-lg'>Embrace the blockchain magic of Moominvalley </p> <br/>
             <div className=''> 
               <a className=' text-xl text-center font-bold text-[#fff] bg-[#c72727] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
-                href='https://app.uniswap.org/swap'>
-                BUY NOW
+                href='/whitepaper.pdf'>
+                WHITEPAPER
               </a>
               <LandingCoins/>
             </div>
