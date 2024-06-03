@@ -14,7 +14,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import landCoinMarket from '../images/CoinMarketCap.png'
-import landDextools from '../images/dextools-seeklogo.svg'
 import testimonialImage from '../images/family-bg.jpg';
 import heroImage from '../images/landing-backgroung.jpg';
 import littleMy from '../images/LittleMy.jpg'
@@ -26,6 +25,7 @@ import moominTroll from '../images/MoominTroll.jpg';
 import landPancakeswap from '../images/pancakeswap.png'
 import snufkin from '../images/Snufkin.jpg'
 import landTelegram from '../images/telegram-svgrepo-com.svg';
+import landTikTok from '../images/TikTok.png'
 import landTwitter from '../images/twitter-circle-svgrepo-com.svg'
 import landUniswap from '../images/uniswap-seeklogo.svg'
 import {
@@ -357,10 +357,10 @@ export const socialLinks: Social[] = [
 ];
 
 export const coinLinks = [
-  {label: 'Twitter', Icon: landTwitter, href: 'https://github.com/Moomin'},
-  {label: 'Telegram', Icon: landTelegram, href: 'https://t.me/dev_aurora'},
+  {label: 'Twitter', Icon: landTwitter, href: 'https://x.com/MuminTrollCoin'},
+  {label: 'Telegram', Icon: landTelegram, href: 'https://t.me/+lUMOUZPH1KxjYWZk'},
+  {label: 'TikTok', Icon: landTikTok, href: 'https://www.tiktok.com/@muminbase'},
   {label: 'Uniswap', Icon: landUniswap, href: 'https://app.uniswap.org/swap'},
   {label: 'Pancakeswap', Icon: landPancakeswap, href: 'https://pancakeswap.finance/swap'},
-  {label: 'Dextools', Icon: landDextools, href: 'https://www.dextools.io/app/en/pairs'},
   {label: 'CoinMarketCap', Icon: landCoinMarket, href: 'https://coinmarketcap.com/dexscan/solana/CTLVrVuFx9pdZ7xLio65TMuo2mnErF1fGNebaCTFxcqi/'},
 ];

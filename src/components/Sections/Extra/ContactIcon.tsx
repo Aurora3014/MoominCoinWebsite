@@ -6,7 +6,7 @@ import {coinLinks} from '../../../data/data'
 const ContactIcon: FC = memo(() => {
   return (
     <div className='flex justify-around gap-x-10'>
-        {coinLinks.map((link, index) => link.label == 'Twitter' || link.label == 'Telegram'? (
+        {coinLinks.map((link, index) => link.label == 'Twitter' || link.label == 'Telegram' || link.label == 'TikTok'? (
             <a className='' href={link.href} key={index} target="_blank">
                 <Image
                     alt={`${link.label}-image`}
