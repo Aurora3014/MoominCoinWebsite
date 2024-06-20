@@ -358,8 +358,8 @@ export const socialLinks: Social[] = [
 
 export const coinLinks = [
   {label: 'Twitter', Icon: landTwitter, href: 'https://x.com/MuminTrollCoin'},
-  {label: 'Telegram', Icon: landTelegram, href: 'https://t.me/+lUMOUZPH1KxjYWZk'},
-  {label: 'TikTok', Icon: landTikTok, href: 'https://www.tiktok.com/@muminbase'},
+  {label: 'Telegram', Icon: landTelegram, href: 'https://t.me/muminbase'},
+  {label: 'TikTok', Icon: landTikTok, href: 'https://www.tiktok.com/@muminbase?_t=8nMXvSyeFPN'},
   {label: 'Pancakeswap', Icon: landPancakeswap, href: 'https://pancakeswap.finance/swap'},
   {label: 'Dextools', Icon: landDextools, href: 'https://www.dextools.io/app/en/base/pair-explorer/0x900a397f6e29604eebed9b8a865f3a24e16f9ede?t=1718899979198'},
   {label: 'Dexscreener', Icon: landDexscreener , href: 'https://dexscreener.com/base/0x900A397f6e29604EebED9B8a865F3A24E16F9EDE'},
