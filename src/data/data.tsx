@@ -107,8 +107,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description1: `MUMIN Reflection Coin is a unique cryptocurrency inspired by the beloved MUMIN characters created by Tove Jansson. `,
-  description2: `Our mission is to blend the whimsical charm of the MUMIN universe with the innovative world of blockchain technology. By holding MUMIN Reflection Coin, you not only join a fun and vibrant community but also benefit from reflective rewards that grow your holdings over time.`,
+  description1: `MUMIN Reflection Coin is a unique cryptocurrency inspired by the beloved characters of the Moomin universe. However, it is important to note that MUMIN Reflection Coin has no affiliation with the original Moomin series or its copyright holders.`,
+  description2: `Our mission is to blend the whimsical charm reminiscent of the Moomin universe with the innovative world of blockchain technology. By holding MUMIN Reflection Coin, you not only join a fun and vibrant community but also benefit from reflective rewards that grow your holdings over time.`,
   aboutItems: [
     {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},

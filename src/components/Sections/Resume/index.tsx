@@ -7,8 +7,8 @@ import profileImageSrc from '../../../images/tokenomics.png'
 import Section from '../../Layout/Section';
 
 const Resume: FC = memo(() => {
-  const description1 = `50% of the tokens were sold in pre-sell and 37% were added to the liquidity pool, LP tokens are burnt, and contract is renounced. 3.855% magical tokens were left with contract. The remaining 9.145% of the supply is being used for marketing.`;
-  const description2 = `7.77% of the fee is distributed to holders in ETH.`;
+  const description1 = `50% of the tokens were sold in pre-sell and 37% were added to the liquidity pool, LP tokens are burnt, and contract is renounced. 3.855% magical tokens were left with contract. The remaining 9.145% of the supply is being used for Charity.`;
+  const description2 = `There is a 7.77% sell/buy tax fee which is distributed as a whole to holders in ETH.`;
 
   return (
     <Section className="bg-neutral-100" sectionId={SectionId.Resume}>
