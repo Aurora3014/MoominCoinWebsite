@@ -29,12 +29,15 @@ const Hero: FC = memo(() => {
             <h1 className='moomin-heading md:text-[70px] text-[50px]'>I'm $MUMIN</h1>
             <p  className='sub-heading md:text-2xl  text-lg'>Embrace the blockchain magic of Moominvalley </p> <br/>
             <div className=''> 
-              <a className='mr-10 text-xl text-center font-bold text-[#fff] bg-[#c72727] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
+               <a className='mr-10 text-xl text-center font-bold text-[#fff] bg-[#04aa6d] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black ' href='https://muminohje.weebly.com'>
+                HOWTOBUY
+              </a>
+              <a className='mr-10 text-xl text-center font-bold text-[#fff] bg-[#04aa6d] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
                 href='/whitepaper.pdf'>
                 WHITEPAPER
               </a>
-              <a className=' text-xl text-center font-bold text-[#fff] bg-[#c72727] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
-                href='/MUMIN-BASE-AUDIT-DRAFT.pdf'>
+              <a className=' text-xl text-center font-bold text-[#fff] bg-[#04aa6d] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black '
+                href='/MUMIN-BASE-AUDIT.pdf'>
                 AUDIT DOCUMENT
               </a>
               <LandingCoins/>

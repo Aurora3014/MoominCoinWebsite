@@ -18,7 +18,7 @@ import landDextools from '../images/dextools-seeklogo.svg'
 import testimonialImage from '../images/family-bg.jpg';
 import heroImage from '../images/landing-backgroung.jpg';
 import littleMy from '../images/LittleMy.jpg'
-import logoGreen from '../images/Logo-green.svg';
+import logoGreen from '../images/logo.png';
 import profilepic from '../images/logo-realistic.png';
 import moominMama from '../images/MoominMama.jpg'
 import moominPapa from '../images/MoominPapa.jpg'
@@ -107,8 +107,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description1: `Moomin Reflection Coin is a unique cryptocurrency inspired by the beloved Moomin characters created by Tove Jansson. `,
-  description2: `Our mission is to blend the whimsical charm of the Moomin universe with the innovative world of blockchain technology. By holding Moomin Reflection Coin, you not only join a fun and vibrant community but also benefit from reflective rewards that grow your holdings over time.`,
+  description1: `MUMIN Reflection Coin is a unique cryptocurrency inspired by the beloved MUMIN characters created by Tove Jansson. `,
+  description2: `Our mission is to blend the whimsical charm of the MUMIN universe with the innovative world of blockchain technology. By holding MUMIN Reflection Coin, you not only join a fun and vibrant community but also benefit from reflective rewards that grow your holdings over time.`,
   aboutItems: [
     {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
@@ -292,23 +292,23 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'MoominPapa',
-      text: 'Ahoy, adventurers of the Moomin meme coin valley! Our coin offers reflections with every transaction, fostering a warm and inclusive community. Join us in spreading Moomin magic far and wide!',
+      name: 'Papa',
+      text: 'Ahoy, adventurers of the MUMIN meme coin valley! Our coin offers reflections with every transaction, fostering a warm and inclusive community. Join us in spreading MUMIN magic far and wide!',
       image: moominPapa,
     },
     {
-      name: 'MoominMama',
-      text: 'Hello, friends! Our Moomin meme coin community is a cozy corner where everyone is welcomed with open arms. We cherish diversity, kindness, and belonging, spreading positivity with each transaction. Join us in creating Moomin magic!',
+      name: 'Mama',
+      text: 'Hello, friends! Our MUMIN meme coin community is a cozy corner where everyone is welcomed with open arms. We cherish diversity, kindness, and belonging, spreading positivity with each transaction. Join us in creating MUMIN magic!',
       image: moominMama,
     },
     {
-      name: 'Snufkin',
-      text: 'Hey wanderers! Welcome to our serene Moomin meme coin realm. Here, we value simplicity, freedom, and nature\'s beauty. Join us in spreading kindness and creating magic!',
+      name: 'Snusking',
+      text: 'Hey wanderers! Welcome to our serene MUMIN meme coin realm. Here, we value simplicity, freedom, and nature\'s beauty. Join us in spreading kindness and creating magic!',
       image: snufkin,
     },
     {
-      name: 'LittleMy',
-      text: 'Hey mischief-makers! Welcome to the lively Moomin meme coin world. Like me, our coin\'s full of spunk, offering adventure and fun. Let\'s ignite sparks of excitement with each transaction, fueling a vibrant community together!',
+      name: 'LittleMe',
+      text: 'Hey mischief-makers! Welcome to the lively MUMIN meme coin world. Like me, our coin\'s full of spunk, offering adventure and fun. Let\'s ignite sparks of excitement with each transaction, fueling a vibrant community together!',
       image: littleMy,
     },
   ],
@@ -357,7 +357,7 @@ export const socialLinks: Social[] = [
 ];
 
 export const coinLinks = [
-  {label: 'Twitter', Icon: landTwitter, href: 'https://x.com/MuminTrollCoin'},
+  {label: 'Twitter', Icon: landTwitter, href: 'https://x.com/mumintrolltoken'},
   {label: 'Telegram', Icon: landTelegram, href: 'https://t.me/muminbase'},
   {label: 'TikTok', Icon: landTikTok, href: 'https://www.tiktok.com/@muminbase?_t=8nMXvSyeFPN'},
   {label: 'Pancakeswap', Icon: landPancakeswap, href: 'https://pancakeswap.finance/swap?chain=base&outputCurrency=0x6544edC83818743C6cd71a2547CBE0d5bFb7aEA3'},

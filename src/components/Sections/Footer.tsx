@@ -28,7 +28,7 @@ const Footer: FC = memo(() => (
           <span className="italic text-yellow">Resume</span>
         </span>
       </a> */}
-      <span className="text-sm text-neutral-400">© {currentYear} by Aurora. All rights reserved!</span>
+      <span className="text-sm text-neutral-400">© {currentYear} </span>
       <p className="text-sm text-neutral-400">0x6544edC83818743C6cd71a2547CBE0d5bFb7aEA3</p>
 
     </div>

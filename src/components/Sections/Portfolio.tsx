@@ -22,10 +22,10 @@ const Portfolio: FC = memo(() => {
           priority
           src={contactImage}
         />
-        <h1 className='text-4xl text-center font-bold mt-10'>Welcome to Moomin Meme Coin</h1>
-        <h2 className='text-2xl text-center font-light'>Join the Moomin Meme-verse!</h2>
+        <h1 className='text-4xl text-center font-bold mt-10'>Welcome to MUMIN Meme Coin</h1>
+        <h2 className='text-2xl text-center font-light'>Join the MUMIN Meme-verse!</h2>
         <br/>
-        <p className='text-2xl text-center'> Discover the magic of Moomin Meme Coin. Fun, memes, and crypto adventures await in our vibrant community.</p>
+        <p className='text-2xl text-center'> Discover the magic of MUMIN Meme Coin. Fun, memes, and crypto adventures await in our vibrant community.</p>
         <br/>
         <div className='text-2xl text-center font-bold text-black p-4 hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 '>
           <ContactIcon/>
