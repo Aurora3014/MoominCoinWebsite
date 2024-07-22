@@ -41,7 +41,7 @@ const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null
         
         <nav className="flex justify-between gap-x-8 px-10 mx-auto max-w-screen-lg">
           <a className="-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100 text-neutral-900 font-poppins text-md  header-text p-4" href="/#">
-            Moomin
+            Mumin
           </a>
           <div className='flex justify-around gap-x-8'>
           {navSections.map(section => (
