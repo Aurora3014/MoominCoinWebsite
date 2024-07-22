@@ -27,7 +27,7 @@ const Hero: FC = memo(() => {
           <div className='pt-10'>
             <p  className='sub-heading md:text-2xl text-lg'>Be With Me !</p>
             <h1 className='moomin-heading md:text-[70px] text-[50px]'>I'm $MUMIN</h1>
-            <p  className='sub-heading md:text-2xl  text-lg'>Embrace the blockchain magic of Moominvalley </p> <br/>
+            <p  className='sub-heading md:text-2xl  text-lg'>Embrace the blockchain magic of Mumin </p> <br/>
             <div className=''> 
               <div className='flex md:flex-row justify-center flex-col w-full'>
                 <a className='mx-2 my-3 md:text-xl text-center font-bold text-[#fff] bg-[#04aa6d] shadow-md shadow-black cursor-pointer p-3 hover:transition-shadow hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fff] sm:hover:shadow-lg sm:hover:shadow-black ' href='https://muminohje.weebly.com'>
